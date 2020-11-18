@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "EventIOSdk is event track SDK."
   spec.homepage     = "https://github.com/weventio/EventIOSdk"
-  spec.license      = { :type => 'MIT', :file => "#{spec.version}/LICENSE" }
+  spec.license      = { :type => 'MIT', :file => "LICENSE" }
   spec.author       = "we"
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/weventio/EventIOSdk.git", :tag => "#{spec.version}" }
