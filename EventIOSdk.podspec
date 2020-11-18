@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => "#{spec.version}/LICENSE" }
   spec.author       = "we"
   spec.platform     = :ios, "9.0"
-  spec.source       = { :http => "https://github.com/weventio/EventIOSdk/tree/main/EventIOSdk/#{spec.version}.zip" }
+  spec.source       = { :http => "https://github.com/weventio/EventIOSdk/blob/main/EventIOSdk/#{spec.version}.zip" }
   spec.vendored_frameworks  = "#{spec.version}/EventIOSdk.framework"
   spec.frameworks       = 'Foundation', 'UIKit', 'CoreTelephony', 'AdSupport','iAd'
 end
