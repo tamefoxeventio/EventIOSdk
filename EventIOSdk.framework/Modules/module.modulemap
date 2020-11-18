@@ -1,0 +1,6 @@
+framework module EventIOSdk {
+  umbrella header "EventIOSdk.h"
+
+  export *
+  module * { export * }
+}
