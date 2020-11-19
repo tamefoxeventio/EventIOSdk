@@ -63,6 +63,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)appWillOpenUrl:(nonnull NSURL *)url;
 
 /**
+ * @brief set custom user id to eventio
+ *
+ * @param customUserId custom userId for App
+ */
++ (void)setCustomUserId:(nonnull NSString *)customUserId;
+
+/**
 * @brief Tell EventIO that a particular event has happened.
 *
 * @param eventName  eventName

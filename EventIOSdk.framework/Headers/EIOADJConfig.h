@@ -210,11 +210,11 @@
  *
  * @returns EventIO configuration object.
  */
-+ (nullable EIOADJConfig *)configWithAppToken:(nonnull NSString *)appToken
-                               environment:(nonnull NSString *)environment;
++ (nullable EIOADJConfig *)configWithAppToken:(nullable NSString *)appToken
+                               environment:(nullable NSString *)environment;
 
-- (nullable id)initWithAppToken:(nonnull NSString *)appToken
-                    environment:(nonnull NSString *)environment;
+- (nullable id)initWithAppToken:(nullable NSString *)appToken
+                    environment:(nullable NSString *)environment;
 
 /**
  * @brief Configuration object for the initialization of the EventIO SDK.
@@ -231,12 +231,12 @@
  *
  * @returns EventIO configuration object.
  */
-+ (nullable EIOADJConfig *)configWithAppToken:(nonnull NSString *)appToken
-                               environment:(nonnull NSString *)environment
++ (nullable EIOADJConfig *)configWithAppToken:(nullable NSString *)appToken
+                               environment:(nullable NSString *)environment
                      allowSuppressLogLevel:(BOOL)allowSuppressLogLevel;
 
-- (nullable id)initWithAppToken:(nonnull NSString *)appToken
-                    environment:(nonnull NSString *)environment
+- (nullable id)initWithAppToken:(nullable NSString *)appToken
+                    environment:(nullable NSString *)environment
           allowSuppressLogLevel:(BOOL)allowSuppressLogLevel;
 
 /**
