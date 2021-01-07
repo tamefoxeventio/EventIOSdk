@@ -179,6 +179,10 @@
 @property (nonatomic, copy, readonly, nullable) NSString *appSecret;
 
 /**
+* @brief EventIO use taking IO
+*/
+@property (nonatomic, assign) BOOL useTkio;
+/**
  * @brief EventIO set app secret.
  */
 - (void)setAppSecret:(NSUInteger)secretId
